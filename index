@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenTech Jardinería S.R.L.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .contact-form {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .contact-form label {
+            display: block;
+            margin-top: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background: #45a049;
+        }
+        footer {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .legal {
+            font-size: 12px;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        GreenTech Jardinería S.R.L.
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>🌱 Sobre Nosotros</h2>
+            <p>En <strong>GreenTech Jardinería S.R.L.</strong>, nos especializamos en la venta de insumos, diseño y mantenimiento de jardines y espacios verdes. Desde 2017, brindamos soluciones innovadoras y ecológicas para hogares y empresas.</p>
+        </section>
+
+        <section>
+            <h2>📍 Ubicación</h2>
+            <p>📍 Av. Juan B. Justo 4567, Villa Devoto, CABA, Argentina</p>
+            <p>📞 +54 11 5311-5668</p>
+            <p>📧 info@greentechjardineria.com.ar</p>
+        </section>
+
+        <section>
+            <h2>🌿 Servicios</h2>
+            <ul>
+                <li>🌱 Diseño y paisajismo para jardines y terrazas.</li>
+                <li>💧 Instalación de sistemas de riego ecológicos.</li>
+                <li>✂️ Servicio de poda y mantenimiento de espacios verdes.</li>
+                <li>🛒 Venta de herramientas, plantas y sustratos.</li>
+            </ul>
+        </section>
+
+        <section class="contact-form">
+            <h2>📩 Contáctanos</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="legal">
+            <h2>Términos y Condiciones</h2>
+            <p><strong>1. Uso del Sitio Web:</strong> Al acceder a este sitio, aceptas nuestros términos y condiciones. La información publicada puede cambiar sin previo aviso.</p>
+            <p><strong>2. Propiedad Intelectual:</strong> Todos los textos, imágenes y logotipos son propiedad de GreenTech Jardinería S.R.L.</p>
+            <p><strong>3. Responsabilidad del Usuario:</strong> El usuario debe utilizar la información de manera responsable y legal.</p>
+            <p><strong>4. Responsabilidad de la Empresa:</strong> No garantizamos que el sitio esté libre de errores o interrupciones.</p>
+            <p><strong>5. Enlaces Externos:</strong> Podemos incluir enlaces a Facebook, WhatsApp u otros sitios externos, pero no nos hacemos responsables de su contenido o políticas.</p>
+
+            <h2>Política de Privacidad</h2>
+            <p><strong>1. Recopilación de Datos:</strong> Recopilamos información personal como nombre y correo cuando el usuario nos contacta.</p>
+            <p><strong>2. Uso de la Información:</strong> La información se usa solo para responder consultas y mejorar nuestros servicios.</p>
+            <p><strong>3. Protección de Datos:</strong> Aplicamos medidas de seguridad para proteger la información personal.</p>
+            <p><strong>4. Compartición de Datos:</strong> No compartimos datos personales con terceros sin autorización.</p>
+            <p><strong>5. Uso de Cookies:</strong> Podemos usar cookies para mejorar la experiencia del usuario.</p>
+            <p><strong>6. Cambios en la Política:</strong> Nos reservamos el derecho de modificar estos términos en cualquier momento.</p>
+        </section>
+    </div>
+
+    <footer>
+        © 2025 GreenTech Jardinería S.R.L. | Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
